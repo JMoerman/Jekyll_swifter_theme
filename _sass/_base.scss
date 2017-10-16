@@ -4593,11 +4593,11 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #cccccc;
 }
 .navbar-inverse {
-  background-color: #2196f3;
+  background-color: #1a1a1a;
   border-color: transparent;
 }
 .navbar-inverse .navbar-brand {
-  color: #b2dbfb;
+  color: #d4d4d4;
 }
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
@@ -4608,7 +4608,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #bbbbbb;
 }
 .navbar-inverse .navbar-nav > li > a {
-  color: #b2dbfb;
+  color: #d4d4d4;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
@@ -4635,7 +4635,10 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   background-color: transparent;
 }
 .navbar-inverse .navbar-toggle .icon-bar {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #d4d4d4;
+}
+.navbar-inverse .navbar-toggle .icon-bar:hover {
+  background-color: #ffffff;
 }
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
@@ -4655,7 +4658,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
     background-color: transparent;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
-    color: #b2dbfb;
+    color: #d4d4d4;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -4676,13 +4679,13 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   }
 }
 .navbar-inverse .navbar-link {
-  color: #b2dbfb;
+  color: #d4d4d4;
 }
 .navbar-inverse .navbar-link:hover {
   color: #ffffff;
 }
 .navbar-inverse .btn-link {
-  color: #b2dbfb;
+  color: #d4d4d4;
 }
 .navbar-inverse .btn-link:hover,
 .navbar-inverse .btn-link:focus {
@@ -6764,21 +6767,21 @@ button.close {
 .navbar-inverse .navbar-form input[type=text],
 .navbar-inverse .navbar-form input[type=password] {
   color: #fff;
-  -webkit-box-shadow: inset 0 -1px 0 #b2dbfb;
-  box-shadow: inset 0 -1px 0 #b2dbfb;
+  -webkit-box-shadow: inset 0 -1px 0 #d4d4d4;
+  box-shadow: inset 0 -1px 0 #d4d4d4;
 }
 .navbar-inverse .navbar-form input[type=text]::-moz-placeholder,
 .navbar-inverse .navbar-form input[type=password]::-moz-placeholder {
-  color: #b2dbfb;
+  color: #d4d4d4;
   opacity: 1;
 }
 .navbar-inverse .navbar-form input[type=text]:-ms-input-placeholder,
 .navbar-inverse .navbar-form input[type=password]:-ms-input-placeholder {
-  color: #b2dbfb;
+  color: #d4d4d4;
 }
 .navbar-inverse .navbar-form input[type=text]::-webkit-input-placeholder,
 .navbar-inverse .navbar-form input[type=password]::-webkit-input-placeholder {
-  color: #b2dbfb;
+  color: #d4d4d4;
 }
 .navbar-inverse .navbar-form input[type=text]:focus,
 .navbar-inverse .navbar-form input[type=password]:focus {
