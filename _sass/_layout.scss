@@ -1,13 +1,10 @@
 .blog-theme-class {
+  background-image: url('../images/banner.jpg');
+  background-position: center center;
+  background-size: cover;
   margin-top:0.3%;
   padding:3%;
-  background:#0c84e4;
-  .jumb-bot {
-    background:#0c84e4;
-    
-  }
   .jumbotron{
-    background:#0c84e4;
     h1 {
       color :#fff;
     }
@@ -36,7 +33,6 @@
   margin: 0px;
   padding-top: 15px;
   padding-bottom: 20px;
-  background: #eee;
   p {
     padding-top: 13px;
   }
