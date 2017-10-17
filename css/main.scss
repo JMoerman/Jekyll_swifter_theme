@@ -27,7 +27,8 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
-
+$banner-size: 250px;
+$navbar-size: 64px;
 
 // Using media queries with like this:
 // @include media-query($on-palm) {
@@ -46,7 +47,9 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+        "cols",
         "base",
+        "glyphicons",
         "layout",
         "syntax-highlighting"
 ;
